@@ -10,7 +10,7 @@ entity Wines : managed, cuid {
 
 }
 
-entity Wineries : managed {
+entity Wineries : managed, cuid {
     title : String;
     street : String;
     town : String;
